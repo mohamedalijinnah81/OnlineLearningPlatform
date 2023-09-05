@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/3ea5083ada.js"
+      crossorigin="anonymous"
+    ></script>
+    
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2>Jinnah's Software Institute</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="loginpage.html" id="login">Log In</a></li>
+        </ul>
+      </header>
+      <main>
+        <div class="hero">
+          <div class="info">
+            <h2>"Unlocking Knowledge, Unleashing Potential"</h2>
+            <p>
+              Welcome to our online course institute, where we are dedicated to
+              "Unlocking Knowledge, Unleashing Potential." Our mission is to
+              provide you with an unparalleled learning experience that goes
+              beyond traditional boundaries.
+              <br />
+              <br />
+              At our institute, we believe that education is the key to
+              unlocking your true potential. Our diverse range of courses is
+              carefully curated to cater to various interests and learning
+              goals.From professional skills to personal enrichment, we offer a
+              wide array of subjects that will empower you to explore new
+              horizons.
+              <br />
+              <br />
+              What sets us apart is our commitment to making quality education
+              accessible to all. We understand that learning should be
+              enriching, not burdensome. That's why we offer our courses at
+              attractive prices, ensuring that you can invest in your future
+              without breaking the bank.
+            </p>
+            <button>Enroll Now</button>
+          </div>
+          <img src="./src/img/hero-img.png" alt="programming-languages" />
+        </div>
+      </main>
+      <section class="sec1">
+        <div class="course-heading">
+          <h2>Our Featured Courses</h2>
+          <button onclick="showAll()">Show All&nbsp;<i class="fa-solid fa-arrow-down" id="arrow"></i></button>
+        </div>
+        <hr />
+        <div class="courses">
+          <div>
+            <img src="./src/img/java.jpg" alt="java" />
+            <h2>Advanced Java Programming</h2>
+            <p>Jinnah</p>
+            <p>
+              <b>4.6</b>&nbsp;
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>&nbsp;<span
+                >(97,632)</span
+              >
+              <br />
+              <b class="price"
+                >&#8377;1299&nbsp;&nbsp;<span>&#8377;1799</span></b
+              >
+            </p>
+          </div>
+
+          <div>
+            <img src="./src/img/python.jpg" alt="java" />
+            <h2>Advanced Python Programming</h2>
+            <p>Jinnah</p>
+            <p>
+              <b>4.3</b>&nbsp;
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>&nbsp;<span
+                >(96,311)</span
+              >
+              <br />
+              <b class="price"
+                >&#8377;1399&nbsp;&nbsp;<span>&#8377;1899</span></b
+              >
+            </p>
+          </div>
+          <div>
+            <img src="./src/img/react-js.jpg" alt="java" />
+            <h2>ReactJs Development</h2>
+            <br />
+            <p>Jinnah</p>
+            <p>
+              <b>4.7</b>&nbsp;
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>&nbsp;<span
+                >(98,023)</span
+              >
+              <br />
+              <b class="price"
+                >&#8377;2299&nbsp;&nbsp;<span>&#8377;2999</span></b
+              >
+            </p>
+          </div>
+          <div>
+            <img src="./src/img/full-stack.jpg" alt="java" />
+            <h2>Full Stack Development</h2>
+            <br />
+            <p>Jinnah</p>
+            <p>
+              <b>4.2</b>&nbsp;
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>&nbsp;<span
+                >(94,842)</span
+              >
+              <br />
+              <b class="price"
+                >&#8377;2199&nbsp;&nbsp;<span>&#8377;2799</span></b
+              >
+            </p>
+          </div>
+          <div>
+            <img src="./src/img/node-js.jpg" alt="java" />
+            <h2>NodeJs Development</h2>
+            <br />
+            <p>Jinnah</p>
+            <p>
+              <b>4.5</b>&nbsp;
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>&nbsp;<span
+                >(94,958)</span
+              >
+              <br />
+              <b class="price"
+                >&#8377;2499&nbsp;&nbsp;<span>&#8377;3499</span></b
+              >
+            </p>
+          </div>
+        </div>
+        <div id="courses">
+          <div>
+            <img src="./src/img/angular-js.jpg" alt="angular" />
+            <h2>AngularJs Development</h2>
+            <br>
+            <p>Jinnah</p>
+            <p>
+              <b>4.1</b>&nbsp;
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>&nbsp;<span
+                >(95,326)</span
+              >
+              <br />
+              <b class="price"
+                >&#8377;2999&nbsp;&nbsp;<span>&#8377;3499</span></b
+              >
+            </p>
+          </div>
+
+          <div>
+            <img src="./src/img/web-development.jpg" alt="web" />
+            <h2>Web Development</h2>
+            <br>
+            <p>Jinnah</p>
+            <p>
+              <b>4.3</b>&nbsp;
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>&nbsp;<span
+                >(96,311)</span
+              >
+              <br />
+              <b class="price"
+                >&#8377;2899&nbsp;&nbsp;<span>&#8377;3299</span></b
+              >
+            </p>
+          </div>
+          <div>
+            <img src="./src/img/cpp.jpg" alt="cpp" />
+            <h2>C++ Programming</h2>
+            <br />
+            <p>Jinnah</p>
+            <p>
+              <b>4.0</b>&nbsp;
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>&nbsp;<span
+                >(98,023)</span
+              >
+              <br />
+              <b class="price"
+                >&#8377;1699&nbsp;&nbsp;<span>&#8377;2199</span></b
+              >
+            </p>
+          </div>
+          <div>
+            <img src="./src/img/backend.png" alt="backend" />
+            <h2>Backend Development</h2>
+            <br />
+            <p>Jinnah</p>
+            <p>
+              <b>4.4</b>&nbsp;
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>&nbsp;<span
+                >(94,842)</span
+              >
+              <br />
+              <b class="price"
+                >&#8377;3499&nbsp;&nbsp;<span>&#8377;3999</span></b
+              >
+            </p>
+          </div>
+          <div>
+            <img src="./src/img/machine-learning.jpeg" alt="ml" />
+            <h2>Machine Learning</h2>
+            <br />
+            <p>Jinnah</p>
+            <p>
+              <b>4.8</b>&nbsp;
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>&nbsp;<span
+                >(94,958)</span
+              >
+              <br />
+              <b class="price"
+                >&#8377;2699&nbsp;&nbsp;<span>&#8377;3299</span></b
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="review">
+        <h2>Our Students Review</h2>
+        <hr />
+        <div class="reviews">
+          <div>
+            <i class="fa-solid fa-circle-user fa-2xl"></i>&nbsp;<span
+              >&nbsp;John Martin&nbsp;<span>2w</span></span
+            ><span class="rev-star"
+              ><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i
+            ></span>
+            <span><p>&nbsp;10 July 2023</p></span>
+            <p>
+              I am proud to say that after a few months of taking this
+              course...I passed my exam and am now an AWS Certified Cloud
+              Practitioner! This content was exactly what the CCP exam covered.
+            </p>
+            <hr />
+            <i class="fa-solid fa-thumbs-up"></i>&nbsp;&nbsp;<span
+              class="helpful"
+              >Helpful</span
+            ><span class="yes-no"
+              ><input type="radio" name="result1" />Yes
+              <input type="radio" name="result1" />No</span
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-circle-user fa-2xl"></i>&nbsp;<span
+              >&nbsp;Chris Nolan&nbsp;<span>4d</span></span
+            ><span class="rev-star"
+              ><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i
+            ></span>
+            <span><p>&nbsp;21 July 2023</p></span>
+            <p>
+              One of the best courses on management and leadership I have come
+              across so far. The advice is practical, and examples highly
+              relatable. Would help anyone become a better manager.
+            </p>
+            <hr />
+            <i class="fa-solid fa-thumbs-up"></i>&nbsp;&nbsp;<span
+              class="helpful"
+              >Helpful</span
+            ><span class="yes-no"
+              ><input type="radio" name="result2" />Yes
+              <input type="radio" name="result2" />No</span
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-circle-user fa-2xl"></i>&nbsp;<span
+              >&nbsp;Kevin Mitnick&nbsp;<span>1w</span></span
+            ><span class="rev-star"
+              ><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i></i
+            ></span>
+            <span><p>&nbsp;17 July 2023</p></span>
+            <p>
+              This course helped me freshen up on my product manager skills and
+              land a job at Facebook! Thanks guys :)
+              <br /><br /><br />
+            </p>
+            <hr />
+            <i class="fa-solid fa-thumbs-up"></i>&nbsp;&nbsp;<span
+              class="helpful"
+              >Helpful</span
+            ><span class="yes-no"
+              ><input type="radio" name="result3" />Yes
+              <input type="radio" name="result3" />No</span
+            >
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="links">
+          <div>
+            <ul>
+              <li><a href="#">Our Business</a></li>
+              <li><a href="#">Teach for us</a></li>
+              <li><a href="#">Get the app</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Help and Support</a></li>
+              <li><a href="#">Affiliate</a></li>
+              <li><a href="#">Investers</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Cookie settings</a></li>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Accessibility statement</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="social-links">
+          <h2>Follow us on</h2>
+          <div class="slinks">
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+          <p>&#169;&nbsp;2023 Mohamed Ali Jinnah, All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

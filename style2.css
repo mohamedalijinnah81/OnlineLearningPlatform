@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./src/img/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    width: 22%;
+    height: 70%;
+    padding: 20px 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    border-radius: 10px;
+    color: rgb(227, 32, 32);
+}
+
+#wrapper #heading {
+    text-align: center;
+    font-size: 2em;
+}
+
+#wrapper div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+#wrapper div label {
+    padding: 0 8%;
+    font-size: 1.2em;
+    margin-top: 6%;
+    font-weight: 600;
+}
+
+#wrapper div input {
+    padding: 2%;
+    font-size: 0.9em;
+    border-radius: 5px;
+    border: none;
+}
+
+#wrapper div input:hover {
+    background-color: #FFCCCB;
+}
+
+#wrapper div input:focus {
+    outline: 3px solid rgb(227, 32, 32);
+    background-color: #FFCCCB;
+}
+
+.inputs {
+    width: 80%;
+    align-self: center;
+    margin-top: 2%;
+}
+
+#btn {
+    width: 84%;
+    align-self: center;
+    margin-top: 6%;
+    padding: 2%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(227, 32, 32);
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #b30000;
+}
+
+#wrapper div a {
+    align-self: flex-end;
+    padding: 0 9% 0 0;
+    text-decoration: none;
+    color: rgb(227, 32, 32);
+    font-size: 1.1em;
+    margin-top: 1%;
+}
+
+#wrapper div a:hover {
+    color: #FFCCCB;
+}
+
+#wrapper p {
+    text-align: center;
+    margin-top: 6%;
+}
+
+#wrapper h2 {
+    text-align: center;
+    font-size: 1em;
+}
+
+.links ul {
+    display: flex;
+    justify-content: center;
+}
+
+.links ul li{
+    list-style: none;
+    margin: 0 4%;
+}
+
+.links ul li a {
+    text-decoration: none;
+}
+
+.links ul li a i {
+    transform: scale(1.6);
+}
+
+.fa-google {
+    color: #ff0000;
+}
+
+.fa-google:hover {
+    color: #b30000;
+}
+
+.fa-facebook {
+    color: #1877F2;
+}
+
+.fa-facebook:hover {
+    color: blue;
+}
+
+.fa-instagram {
+    color: #d62976;
+}
+
+.fa-instagram:hover {
+    color: #ff0055;
+}
+
+.fa-twitter {
+    color: #00acee;
+}
+
+.fa-twitter:hover {
+    color: #0044ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

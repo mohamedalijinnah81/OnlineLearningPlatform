@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    color: #fff;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(./src/img/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 2%;
+    box-sizing: border-box;
+}
+
+.wrapper header h2 {
+    font-size: 1.8em;
+    color: rgb(227, 32, 32);
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.wrapper header ul {
+    display: flex;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.wrapper header ul li {
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+
+.wrapper header ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 2px;
+    font-size: 1.2em;
+}
+
+.wrapper header ul li a:hover {
+    color: rgb(227, 32, 32);
+    border-bottom: 1px solid rgb(227, 32, 32);
+    transition: all 0.3s ease 0s;
+}
+
+.wrapper header ul li #login {
+    color: rgb(227, 32, 32);
+    background: transparent;
+    padding: 10px 30px;
+    margin-top: -10px;
+    font-size: 1.2em;
+    border: 3px solid rgb(227, 32, 32);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.wrapper header ul li #login:hover {
+    background-color: rgb(227, 32, 32);
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+/* .wrapper header ul li button a {
+    text-decoration: none;
+    color: rgb(227, 32, 32);
+}
+
+.wrapper header ul li button a:hover {
+    color: #fff;
+    transition: all 0.3s ease 0s;
+} */
+
+.hero {
+    margin: 50px 2% 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .info {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.info h2 {
+    font-size: 2em;
+    color: rgb(227, 32, 32);
+}
+
+.info p {
+    margin: 25px auto 25px 20px;
+    text-indent: 50px;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.info button {
+    margin: auto auto 25px 20px;
+    background: transparent;
+    color: rgb(227, 32, 32);
+    border: 3px solid rgb(227, 32, 32);
+    border-radius: 5px;
+    padding: 10px 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.info button:hover {
+    color: #fff;
+    background-color: rgb(227, 32, 32);
+    transition: all 0.3s ease 0s;
+}
+
+.hero img {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    justify-self: flex-end;
+    transform: scale(0.9);
+}
+
+.sec1 {
+    color: #000;
+    box-sizing: border-box;
+    margin-top: 60px;
+    padding: 20px 2% 5px;
+}
+
+.course-heading {   
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-heading h2 {
+    font-size: 1.7em;
+}
+
+#arrow {
+    color: #000;
+}
+
+.course-heading button {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3em;
+    background-color: transparent;
+    border: none;
+}
+
+.course-heading button:hover {
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#courses {
+    margin: 20px auto 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: '';
+}
+
+.courses {
+    margin: 20px auto 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.courses div, #courses div {
+    padding: 15px;
+    background-color: #dadada;
+    justify-self: flex-start;
+    box-sizing: border-box;
+    width: 16%;
+    box-shadow: 0 0 10px 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.courses div:hover, #courses div:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+}
+
+.courses div img, #courses div img {
+    width: 100%;
+    height: 130px;
+    border-radius: 5px;
+}
+
+.courses div h2, #courses div h2 {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+.courses div p, #courses div p {
+    margin-top: 5px;
+}
+
+.fa-solid {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.courses div span, #courses div span {
+    color: darkslategrey;
+}
+
+.courses div .price, #courses div .price {
+    font-size: 1.4em;
+}
+
+.courses div .price span, #courses div .price span {
+    color: #444444;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.review {
+    margin-top: 10px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.review h2 {
+    font-size: 1.7em;
+    padding: 20px 2% 5px;
+}
+
+.reviews {
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.reviews div {
+    background-color: #aaaaaa;
+    justify-content: flex-start;
+    width: 26%;
+    box-sizing: border-box;
+    padding: 20px 1%;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 1px;
+}
+
+.fa-circle-user {
+    color: #000;
+}
+
+.reviews div span {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.reviews .rev-star {
+    margin-left: 30px;
+    color: #000;
+}
+
+.reviews .rev-star .fa-solid {
+    color: #000;
+}
+
+.reviews div span > span {
+    font-size: 0.7em;
+    color: darkslategrey;
+}
+
+.reviews div span p {
+    font-size: 0.8em;
+    margin: 0 0 0 18px;
+    font-weight: 500;
+}
+
+.reviews div p {
+    text-align: justify;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 20px 0 20px;
+}
+
+.reviews div hr {
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.reviews div .fa-thumbs-up {
+    color: #000;
+    margin-left: 20px;
+    margin-bottom: 0;
+    transform: scale(1.5);
+}
+
+.reviews div .helpful {
+    font-size: 1em;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.reviews div .yes-no {
+    margin-left: 120px;
+}
+
+.reviews div .yes-no input {
+    accent-color: #000;
+    transform: scale(1.4);
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 30px 3% 50px;
+}
+
+.links {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.links div {
+    box-sizing: border-box;
+    width: 100%;
+    height: 30%;
+}
+
+.links div ul {
+    list-style: none;
+    display: inline;
+}
+
+.links div ul li {
+    margin-top: 10px;
+}
+
+.links div ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.links div ul li a:hover {
+    text-decoration: underline;
+    color: rgb(227, 32, 32);
+    transition: all 0.3s ease 0s;
+}
+
+.social-links {
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-left: 30%;
+    width: 100%;
+    padding-top:30px;
+}
+
+.social-links h2 {
+    font-size: 1.1em;
+    margin-left: 50px;
+}
+
+.social-links p {
+    margin-top: 35px;
+    font-size: 1.1em;
+    margin-left: -20%;
+}
+
+.social-links .slinks ul {
+    list-style: none;
+    display: flex;
+}
+
+.social-links .slinks ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-links .slinks ul li a i {
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 25px;
+    transform: scale(1.8);
+}
+
+.social-links .slinks ul li a i:hover {
+    color: rgb(227, 32, 32);
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
