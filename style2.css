@@ -79,6 +79,7 @@ body {
 
 #btn:hover {
     background-color: #b30000;
+    transition: all 0.3s ease 0s;
 }
 
 #wrapper div a {
@@ -92,6 +93,7 @@ body {
 
 #wrapper div a:hover {
     color: #FFCCCB;
+    transition: all 0.3s ease 0s;
 }
 
 #wrapper p {
@@ -128,6 +130,7 @@ body {
 
 .fa-google:hover {
     color: #b30000;
+    transition: all 0.3s ease 0s;
 }
 
 .fa-facebook {
@@ -136,6 +139,7 @@ body {
 
 .fa-facebook:hover {
     color: blue;
+    transition: all 0.3s ease 0s;
 }
 
 .fa-instagram {
@@ -144,6 +148,7 @@ body {
 
 .fa-instagram:hover {
     color: #ff0055;
+    transition: all 0.3s ease 0s;
 }
 
 .fa-twitter {
@@ -152,6 +157,7 @@ body {
 
 .fa-twitter:hover {
     color: #0044ff;
+    transition: all 0.3s ease 0s;
 }
 
 
